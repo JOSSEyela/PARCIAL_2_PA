@@ -1,0 +1,7 @@
+# MongoDB se usa desde el servicio local de Windows (localhost:27017).
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: acortador-redis
+    ports:
+      - "6379:6379"
